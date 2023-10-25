@@ -1,5 +1,6 @@
 body {
     margin: 0%;
+    overflow: hidden;
 }
 
 #droiteEtGauche {
@@ -8,14 +9,57 @@ body {
     height: 1000px;
 }
 
+/* #droiteEtGauche img {
+    width: 200px;
+    height: 200px;
+} */
+
 #gauche {
     background-color:#FCFBF4;
     width: 50%;
     height: 1000px;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+}
+
+#gauche img {
+    width: 200px;
+    height: 200px;
+}
+
+#gauche h1 {
+    font-weight: bold;
+}
+
+#linkedin {
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+#linkedin img {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-top: 260px;
 }
 
 #droite {
     background-color: #0D1321;
     width: 50%;
     height: 1000px;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
 }
+
+#droite img {
+    width: 200px;
+    height: 200px;
+}
+
+#droite h1 {
+    color: #FCFBF4;
+}
+
