@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     overflow: hidden;
-    font-family: 'Koulen';
+    font-family: 'Koulen', Arial, Helvetica, sans-serif;
 }
 
 #droiteEtGauche {
