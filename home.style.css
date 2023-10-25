@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     overflow: hidden;
+    font-family: 'Koulen';
 }
 
 #droiteEtGauche {
@@ -9,10 +10,9 @@ body {
     height: 1000px;
 }
 
-/* #droiteEtGauche img {
-    width: 200px;
-    height: 200px;
-} */
+#droiteEtGauche div h1 {
+    font-weight: bold;
+}
 
 #gauche {
     background-color:#FCFBF4;
@@ -26,10 +26,24 @@ body {
 #gauche img {
     width: 200px;
     height: 200px;
+    /* padding-bottom: -500px; */
 }
 
 #gauche h1 {
-    font-weight: bold;
+    color: #0D1321;
+    font-size: 50px;
+    margin-top: -40px;
+}
+
+#gauche h2 {
+    color: #0D1321;
+    margin-top: -50px;
+}
+
+#gauche p {
+    color: #0D1321;
+    font-size: 26px;
+    margin-top: 62px;
 }
 
 #linkedin {
@@ -42,7 +56,7 @@ body {
     height: 50px;
     width: 50px;
     text-align: center;
-    margin-top: 260px;
+    margin-top: 125px;
 }
 
 #droite {
@@ -61,5 +75,7 @@ body {
 
 #droite h1 {
     color: #FCFBF4;
+    font-size: 50px;
+    margin-top: -40px;
 }
 
