@@ -1,0 +1,87 @@
+body {
+    background-color: #252934;
+    margin: 0%;
+    overflow: hidden;
+    font-family: 'Koulen', Arial, Helvetica, sans-serif;
+}
+
+#fleche a img {
+    width: 120px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#logoDroite {
+    width: 215px;
+    height: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -45px;
+}
+
+#h1Droite {
+    text-align: center;
+    color: #FCFBF4;
+    font-size: 47px;
+    margin-top: -80px;
+    margin-left: -2px;
+    text-decoration-line: underline;
+}
+
+#all {
+    padding-left: 240px;
+    margin-top: -10px;
+}
+
+#block1 {
+    display: flex;
+}
+
+#gmail {
+    padding-left: 248px;
+    margin-top: 25px;
+    width: 75px;
+    height: 75px;
+}
+
+#p1 {
+    color: #FCFBF4;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+#block2 {
+    display: flex;
+}
+
+#linkedin {
+    padding-left: 250px;
+    margin-top: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+#p2 {
+    color: #FCFBF4;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+#block3 {
+    display: flex;
+}
+
+#phone {
+    width: 120px;
+    height: 75px;
+    padding-left: 227px;
+    margin-top: 12px;
+}
+
+#p3 {
+    color: #FCFBF4;
+    font-size: 35px;
+    margin-left: 28px;
+    padding-bottom: -3000px;
+}
