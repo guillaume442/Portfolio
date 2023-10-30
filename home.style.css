@@ -1,83 +1,63 @@
 body {
     margin: 0%;
-    overflow: hidden;
     font-family: 'Koulen', Arial, Helvetica, sans-serif;
 }
 
-#droiteEtGauche {
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+header nav {
     display: flex;
+    justify-content: space-evenly;
 }
 
-#gauche {
-    background-color:#FCFBF4;
-    text-align: center;
-    width: 50%;
+header nav a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #FCFBF4;
 }
 
-#gauche img {
+#home {
+    background-color: #252934;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home p {
+    font-size: 40px;
+    color: #FCFBF4;
+    margin-left: 40px;
+}
+
+#home img {
+    width: 300px;
+    height: 300px;
+    margin-right: 60px;
+}
+
+#creations {
+    background-color: #FCFBF4;
+    width: 100%;
+    height: 100vh;
+}
+
+#contact {
+    background-color: #252934;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between 5px;
+}
+
+#contact img {
     width: 200px;
     height: 200px;
-    /* padding-bottom: -500px; */
-}
-
-#gauche h1 {
-    color: #252934;
-    font-size: 50px;
-    margin-top: -40px;
-}
-
-#gauche h2 {
-    color: #252934;
-    font-size: 32px;
-    margin-top: -50px;
-}
-
-#Pgauche {
-    width: 100%;
-    height: 200px;
-}
-
-#Pgauche p {
-    color: #0D1321;
-    font-size: 26px;
-    padding-top: 43px;
-}
-
-#bas {
-    width: 100%;
-    height: 150px;
-    position: absolute;
-    bottom: 0;
-}
-
-#lien {
-    text-decoration: none;
-}
-
-#bas h1 {
-    color: rgba(0, 0, 255, 0.813);
-    font-size: 75px;
-    margin-left: -770px;
-}
-
-/* --------------------------------------------------------------- */
-
-
-#droite {
-    background-color: #252934;
-    width: 50%;
-    height: 1000px;
-    justify-content: center;
-    text-align: center;
-}
-
-#droite img {
-    width: 190px;
-    height: 190px;
-}
-
-#droite h1 {
-    color: #FCFBF4;
-    font-size: 50px;
-    margin-top: -35px;
 }
