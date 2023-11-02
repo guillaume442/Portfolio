@@ -118,7 +118,8 @@ header a{
 } */
 
 #contact {
-    background-color: #252934;
+    background-image: url(images/black_keeboard.jpg);
+    background-size: cover;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -126,49 +127,56 @@ header a{
     justify-content: space-evenly;
 }
 
-#contact div p {
-    color: #FCFBF4;
-    font-size: 50px;
-    
-}
-
 #mail {
-    background-color: rgba(0, 255, 255, 0.608);
-    width: 75%;
+    width: 100%;
     height:175px;
     display: flex;
-    justify-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #mail img {
     width: 150px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 29px;
+    margin-left: 32px;
+}
+
+#mail p {
+    color: #FCFBF4;
+    font-size: 50px;
 }
 
 #phone {
-    background-color: rgba(0, 255, 255, 0.596);
     width: 100%;
     height:175px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #phone img {
     width: 150px;
     height: 150px;
+    margin-left: -50px;
+}
+
+#phone p {
+    color: #FCFBF4;
+    font-size: 50px;
 }
 
 #linkedin {
-    background-color: rgba(0, 255, 255, 0.59);
     width: 100%;
     height:175px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #linkedin img {
     width: 150px;
     height: 150px;
+}
+
+#linkedin p {
+    color: #FCFBF4;
+    font-size: 50px;
 }
