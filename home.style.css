@@ -53,7 +53,7 @@ header a{
     background-color: #fcfbf4;
     width: 100%;
     height: 100vh;
-    background-image: url(images/swegg.jpg);
+    background-image: url(/images/black_pc_background.jpg);
     background-size: cover;
     display: flex;
 }
@@ -61,25 +61,25 @@ header a{
 #creaGauche {
     width: 50%;
     height: 100vh;
+    display: none;
 }
 
 #creaDroite {
-    width: 50%;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
-    flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 #creations a {
-    color: #252934;
+    color: #FCFBF4;
     text-decoration: none;
     font-size: 75px;
-    padding-left: 220px;
 }
 
-.contact {
+#contact {
     background-image: url(images/black_keeboard.jpg);
     background-size: cover;
     width: 100%;
@@ -171,11 +171,13 @@ header a{
         color: #FCFBF4;
         font-size: 42px;
         font-weight: lighter;
+        margin-left: 12px;
     }
     
     #home img {
         width: 220px;
         height: 220px;
+        margin-left: 10px;
     }
     
     #home p {
@@ -187,29 +189,24 @@ header a{
     #creations {
         width: 100%;
         height: 100vh;
-        background-image: url(images/nuit.jpg);
+        background-image: url(images/black_pc_background.jpg);
         background-size: 2000px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #creaGauche {
-        display: none;
     }
     
     #creaDroite {
         /* background-color: rgba(255, 0, 0, 0.447); */
         width: 90%;
         height: 90%;
-        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     
     #creaDroite a {
-        color: #7c8292e2;
+        color: #FCFBF4;
         text-decoration: none;
         font-size: 60px;
-        margin-left: -255px;
+        margin-right: -230px;
     }
     
     .contact {
@@ -270,7 +267,7 @@ header a{
 
     /* --------------Tablet-------------------------------- */
 
-    @media only screen and (max-width: 620px) {
+    @media only screen and (max-width: 730px) {
         body {
             margin: 0%;
             font-family: 'Koulen', Arial, Helvetica, sans-serif;
@@ -318,29 +315,24 @@ header a{
         #creations {
             width: 100%;
             height: 100vh;
-            background-image: url(images/nuit.jpg);
+            background-image: url(images/black_pc_background.jpg);
             background-size: 2000px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        #creaGauche {
-            display: none;
         }
         
         #creaDroite {
             /* background-color: rgba(255, 0, 0, 0.447); */
             width: 90%;
             height: 90%;
-            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
         }
         
         #creaDroite a {
-            color: #7c8292e2;
+            color: #FCFBF4;
             text-decoration: none;
             font-size: 60px;
-            margin-left: -255px;
+            margin-right: -40px;
         }
         
         .contact {
